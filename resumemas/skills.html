@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Skills </title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #a76868 0%, #8a5757 100%), url('background-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 40px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header .header-content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            font-weight: normal;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .section {
+            width: 90%;
+            max-width: 800px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: left;
+            background-color: #ffffff;
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.05);
+        }
+        .section h2 {
+            margin-top: 0;
+            padding: 15px;
+            background-color: #927a7a;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            font-size: 1.1em;
+        }
+        .section ul li::before {
+            content: "•";
+            color: #a76868;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            font-size: 1.5em;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #a76868;
+        }
+        footer {
+            background-color: #a76868;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievement.html">Achievement</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-content">
+            <img src="picture/mas.jpg" alt="Profile Picture">
+            <div>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+                <h1>Masitah Binti Nadzir</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-file-alt icon"></i><strong>CMS:</strong> Expert in WordPress, Joomla, Drupal.</li>
+                <li><i class="fas fa-code icon"></i><strong>Web Development:</strong> HTML, CSS, JavaScript.</li>
+                <li><i class="fas fa-search icon"></i><strong>SEO:</strong> Content optimization for search engines.</li>
+                <li><i class="fas fa-pen icon"></i><strong>Writing & Editing:</strong> Creating engaging, error-free content.</li>
+                <li><i class="fas fa-share-alt icon"></i><strong>Social Media:</strong> Managing accounts on Facebook, Twitter, Instagram.</li>
+                <li><i class="fas fa-paint-brush icon"></i><strong>Graphic Design:</strong> Using Photoshop and Canva.</li>
+                <li><i class="fas fa-tasks icon"></i><strong>Project Management:</strong> Trello and Asana.</li>
+                <li><i class="fas fa-chart-bar icon"></i><strong>Analytical Skills:</strong> Evaluating content performance.</li>
+                <li><i class="fas fa-comments icon"></i><strong>Communication:</strong> Excellent verbal and written skills.</li>
+                <li><i class="fas fa-lightbulb icon"></i><strong>Problem-Solving:</strong> Effective solutions to challenges.</li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Masitah Binti Nadzir</p>
+    </footer>
+</body>
+</html>
